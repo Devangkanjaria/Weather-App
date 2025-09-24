@@ -1,12 +1,91 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Weather Web App** built with **React.js + Vite**, allowing users to check real-time weather information for any city using an external API.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Weather App](https://devangkanjaria.github.io/Weather-App/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## **Features**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🌎 Search weather information for any city in the world.
+* 📈 View temperature, humidity, wind speed, min/max temperature, and weather description.
+* ⏱️ Real-time weather updates using API integration.
+* 🎨 Responsive and user-friendly interface for all devices.
+* ⚡ Smooth and fast performance with Vite + React.
+
+---
+
+## **Tech Stack**
+
+* **Frontend:** React.js, Vite, HTML5, CSS3, JavaScript
+* **API:** OpenWeatherMap API (or your chosen API)
+* **Deployment:** GitHub Pages
+
+---
+
+
+
+## **Installation & Local Setup**
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/Devangkanjaria/Weather-App.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd weather-app
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Create a `.env` file and add your API key:
+
+```env
+VITE_API_KEY=your_api_key_here
+```
+
+5. Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## **How to Use**
+
+1. Enter the city name in the search box.
+2. Press Enter or click the search button.
+3. View the current weather information, including temperature, min/max temperature, humidity, wind speed, and description.
+
+---
+
+## **Future Improvements**
+
+* Add hourly and weekly weather forecasts.
+* Include geolocation-based weather detection.
+* Dark mode toggle for better UI/UX.
+* Integrate caching for offline support.
+
+---
+
+## **Author**
+
+* **Devang Kanjaria**
+* [GitHub Profile](https://github.com/Devangkanjaria)
+* [Project](https://devangkanjaria.pythonanywhere.com/)
+
+
+---
+
+If you want, I can **also create a visually rich Markdown version** with badges, colors, and icons so your README **looks like a professional project showcase**.
+
+Do you want me to do that?
