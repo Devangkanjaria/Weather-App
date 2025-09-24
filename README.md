@@ -84,8 +84,4 @@ npm run dev
 * [Project](https://devangkanjaria.pythonanywhere.com/)
 
 
----
 
-If you want, I can **also create a visually rich Markdown version** with badges, colors, and icons so your README **looks like a professional project showcase**.
-
-Do you want me to do that?
